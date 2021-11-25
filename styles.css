@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background\ tech.jpg') no-repeat top center ;
+  background: url('images/backgroundtech.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -66,15 +66,31 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  margin-top: 0px;
+  width: 250px;
+  height: 250px;
   border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(2.0) rotate(30deg);
+  transform: scale(1.5) rotate(360deg);
+}
+header .interest-image {
+  margin-top: 0px;
+  width: 400px;
+  height: 300px;
+  border-radius: 30%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .exp-image {
+  margin-top: 0px;
+  width: 500px;
+  height: 300px;
+  border-radius: 10%;
+  border: 3px solid white;
+  transition: all .5s;
 }
 .tag {
   background-color: #ffffff;
@@ -119,6 +135,8 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+ul.interests 
 
 footer {
   width: 100%;
@@ -204,4 +222,3 @@ a.social:hover {
   }
 
 }
-
